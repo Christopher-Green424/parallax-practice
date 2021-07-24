@@ -1,6 +1,40 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Lobster&display=swap');
 
+body, html {
+    height: 100%;
+}
+  
+.parallax {
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumboPic1 {
+    /* The image used */
+    background-image: url("https://i.postimg.cc/wT2tWT85/wp2974376.jpg");
+}
+
+.jumboPic2 {
+    /* The image used */
+    background-image: url("https://i.postimg.cc/2yFqNCqD/free-pc-games-team-fortress-2.jpg");
+}
+
+.jumboPic3 {
+    /* The image used */
+    background-image: url("https://i.postimg.cc/wjb1pfB7/wp2725866.png");
+}
+
 .jumboText {
     font-family: 'Lobster', cursive;
+}
+
+.jumbo-text-bg {
+    background-color: rgb(0,0,0, 0.5);
 }
